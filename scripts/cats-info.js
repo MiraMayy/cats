@@ -1,4 +1,4 @@
-export class CatsInfo {
+class CatsInfo {
     constructor(selectorTemplate, handleDeleteCat) {
         this._selectorTemplate = selectorTemplate;
         this._handleDeleteCat = handleDeleteCat;

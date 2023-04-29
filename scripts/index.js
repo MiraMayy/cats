@@ -1,11 +1,5 @@
 // 1 Сделать свой стиль и создать проект
 // 2 Перебрать массив котов и отобразить их на странице
-import { Card } from './card.js';
-import { Popup } from './popup.js';
-import { PopupImage } from './popup-image.js';
-import { CatsInfo } from './cats-info.js';
-import { api } from './api.js';
-import { serializeForm, setDataRefrash } from './utils.js';
 
 const btnOpenPopupForm = document.querySelector('#add');
 const btnLoginOpenPopup = document.querySelector('#login');

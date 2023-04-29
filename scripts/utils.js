@@ -1,4 +1,4 @@
-export function serializeForm(elements) { //формирует данные из формы в объект для отправки на сервер
+function serializeForm(elements) { //формирует данные из формы в объект для отправки на сервер
     const formData = {};
    
     elements.forEach(input => {
@@ -14,7 +14,7 @@ export function serializeForm(elements) { //формирует данные из
     return formData
 }
 
-export function setDataRefrash(minutes, key) { // функция ставит интервал обновления локал-стоража
+function setDataRefrash(minutes, key) { // функция ставит интервал обновления локал-стоража
     const setTime = new Date(new Date().getTime() + minutes * 60000)
     localStorage.setItem(key, setTime);
 }
