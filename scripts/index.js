@@ -32,6 +32,7 @@ function checkLocalStorage() { // проверяет нужно взять ко�
     const localData = JSON.parse(localStorage.getItem('cats'));
     const getTimeExpires = localStorage.getItem('catsRefrash');
 
+    console.log('localData-->', localData);
     if (localData && localData.length && (new Date() < new Date(getTimeExpires))) {
         localData.forEach(catData => {
             createCat(catData);
