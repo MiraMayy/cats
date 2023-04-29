@@ -14,7 +14,7 @@ const CONFIG_API = {
     },
   };
   
-  export class API {
+  class API {
     constructor(config) {
       this._url = config.url;
       this._headers = config.headers;
@@ -61,5 +61,5 @@ const CONFIG_API = {
     }
   }
   
-  export const api = new API(CONFIG_API);
+  const api = new API(CONFIG_API);
   
