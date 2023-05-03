@@ -13,9 +13,10 @@
 
 .header__container .logo {
     font-family: 'Amatic SC', cursive;
-    font-size: 30px;
+    font-size: 35px;
+    color: var( --primary-color );
 }
 
 .header__container .logo i {
-    color: var( --bg-overlay-color);
+    color: var(  --primary-color);
 }

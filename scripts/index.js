@@ -64,18 +64,6 @@ function handleFormAddCat(e) { // хэндлер для сбора данных 
     popupAddCat.close();
 }
 
-function handleFormLogin(e) { // собираем данные, пишем в кук (псевдо-авторизация)
-    e.preventDefault();
-
-    const loginData = [...formLogin.elements];
-    const serializeData = serializeForm(loginData);
-
-    Cookies.set('email', `email=${serializeData.email}`);
-    btnOpenPopupForm.classList.remove('visually-hidden');
-    btnLoginOpenPopup.classList.add('visually-hidden');
-    
-    popupLogin.close();
-}
 
 function handleCatImage(dataCat) {
     popupImage.open(dataCat);

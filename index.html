@@ -44,17 +44,11 @@
         <span class="copyright">©2023 Made by Mira</span>
 
         <div class="socials">
-          <a class="socials__link" href="./cat-detail.html"
-            ><i class="fa-brands fa-github socials__icon"></i
-          ></a>
-          <a class="socials__link" href="#"
-            ><i class="fa-brands fa-vk socials__icon"></i
-          ></a>
-          <a class="socials__link" href="#"
-            ><i class="fa-brands fa-telegram socials__icon"></i
-          ></a>
-        </div>
+          <a class="socials__link" href="#"><i class="fa-brands fa-github socials__icon"></i></a>
+          <a class="socials__link" href="#"><i class="fa-brands fa-vk socials__icon"></i></a>
+          <a class="socials__link" href="#"><i class="fa-brands fa-telegram socials__icon"></i></a>
       </div>
+  </div>
     </footer>
 
     <div class="popup popup-add-cats">
@@ -62,7 +56,9 @@
             <button class="popup__close btn"><i class="fa-solid fa-xmark"></i></button>
             <h2>Добавить питомца</h2>
             <form class="form" id="popup-form-cat">
-                <div class="form__image"></div>
+                <div class="form__image" >
+                    <img class="about__form__image" src= "assets\images\teb-full.jpg">
+                </div>
                 <input type="number" class="form__input" name="id" min="1" required placeholder="id">
                 <input type="number" class="form__input" name="age" placeholder="Возраст">
                 <input type="text" class="form__input" name="name" required placeholder="Имя">

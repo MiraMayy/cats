@@ -6,9 +6,13 @@
 
 .form__image {
     grid-row: span 3;
-    background-image: url("../../assets/images/cat.jpg");
+    background-image: url(C:\Users\ASUS\Documents\cats\assets\images\teb-full.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.about__form__image {
+    width: 200;
+    height: 200px;
 }
 
 .form__textarea {
